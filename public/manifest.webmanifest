@@ -1,0 +1,34 @@
+{
+  "id": "/",
+  "name": "الراعبي للتجارة — Al-Raebi For Trading",
+  "short_name": "الراعبي",
+  "description": "منصة الراعبي للتجارة لأنظمة الطاقة الشمسية وشواحن السيارات الكهربائية",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#ffffff",
+  "theme_color": "#0b3a78",
+  "icons": [
+    {
+      "src": "/__l5e/assets-v1/756b3fbd-dcf0-4207-a994-da20fd738b23/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/__l5e/assets-v1/902f572d-ed0f-4c7d-857c-f83a9d8817ae/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/__l5e/assets-v1/ae893873-7444-4459-aaef-4330c78a13e6/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

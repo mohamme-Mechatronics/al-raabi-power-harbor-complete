@@ -1,5 +1,5 @@
 # Al-Raebi rebrand
-- [ ] Upload a complete portable source and media snapshot to a new private GitHub repository; exclude secrets, dependencies and temporary build output.
+- [x] Upload and verify 1,505 files including all 616 media binaries in private mohamme-Mechatronics/al-raabi-power-harbor-complete; exclude secrets, dependencies and temporary build output.
 - [x] Restore all 616 unique imported assets (675 references) from the original project's asset host; verify start/home images on mobile and desktop.
 - [x] Update ADMIN_PASSWORD through the secure form.
 - [x] Reconcile copied migrations with the new database's empty baseline.
@@ -14,6 +14,9 @@
 - [x] Keep the Android app source in the project (android-app/) plus a workflow that builds the APK, so the uploaded repository holds everything.
 - [x] Upload the whole project to GitHub (private repo mohamme-Mechatronics/al-raebi, 882 files, .env and .lovable left out).
 - [x] Make the four project-type buttons slightly taller (photo shows uncropped) and enlarge the Al-Raebi logo baked into the four system photos.
+- [x] Add Dyness battery datasheets (Powerbox Pro/G2, PowerBrick, DL5.0/C/X, PowerRack HV4F, DH200F) with photos and PDFs.
+- [x] Connect GitHub API in the new workspace.
 - [ ] Switch quote tool to the new products: prices waiting on user.
 - [ ] Phase two: videos (user will provide/edit later).
 - [ ] Import existing orders/notifications: waiting for an export from the old project.
+- [x] Replace old GRASEN car chargers with the 9 chargers from the new official datasheets

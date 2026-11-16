@@ -20,3 +20,4 @@
 - [ ] Phase two: videos (user will provide/edit later).
 - [ ] Import existing orders/notifications: waiting for an export from the old project.
 - [x] Replace old GRASEN car chargers with the 9 chargers from the new official datasheets
+- [x] Sync the new catalogs to GitHub: 73 files pushed (34 media + 34 pointers + code), 12 stale charger files removed, all 644 media verified by hash.

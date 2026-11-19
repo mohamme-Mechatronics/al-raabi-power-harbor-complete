@@ -26,7 +26,7 @@ export default defineConfig({
       skipWaiting: true,
       runtimeCaching: [
         {
-          urlPattern: ({ request, url }) => request.mode === "navigate" && ["/", "/downloads", "/brands/grasen", "/brands/trina-solar", "/brands/huasun", "/brands/dyness", "/brands/luxpower", "/brands/sungrow", "/brands/atess"].includes(url.pathname),
+          urlPattern: ({ request, url }) => request.mode === "navigate" && ["/", "/downloads", "/brands/grasen", "/brands/trina-solar", "/brands/dyness", "/brands/luxpower", "/brands/sungrow", "/brands/atess"].includes(url.pathname),
           handler: "NetworkFirst",
           options: { cacheName: "actes-public-pages-v1", cacheableResponse: { statuses: [200] } },
         },

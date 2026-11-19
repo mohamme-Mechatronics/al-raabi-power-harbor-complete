@@ -292,8 +292,8 @@ function ProductCard({ product, onOpen }: { product: Product; onOpen: () => void
             <img src={product.image} alt={product.name} loading="lazy" decoding="async" width={600} height={800} className="size-full object-contain drop-shadow-md transition duration-500 group-hover:scale-105" />
           </span>
           <span className="flex min-w-0 flex-1 flex-col items-stretch rounded-md bg-card/95 p-1.5 text-center shadow-sm ring-1 ring-border/50">
-            <span className="text-[10px] font-black leading-tight text-navy lg:text-xs">{CAT_EN[product.category]}</span>
-            <span className="my-1 truncate rounded px-1 py-1 text-[11px] font-black lg:text-sm" style={{ background: color, color: "#fff" }}>{product.power}</span>
+            <span className="text-[10px] font-black leading-tight text-navy lg:text-xs">{product.kind ?? CAT_EN[product.category]}</span>
+            <span className="my-1 whitespace-normal break-words rounded px-1 py-1 text-[11px] font-black leading-tight lg:text-sm" style={{ background: color, color: "#fff" }}>{product.power}</span>
             {specs.map((s, i) => (
               <span key={i} className="truncate border-b border-border/60 py-0.5 text-[8.5px] font-semibold text-muted-foreground last:border-0 lg:text-[10px]">{s}</span>
             ))}

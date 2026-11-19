@@ -21,3 +21,12 @@
 - [ ] Import existing orders/notifications: waiting for an export from the old project.
 - [x] Replace old GRASEN car chargers with the 9 chargers from the new official datasheets
 - [x] Sync the new catalogs to GitHub: 73 files pushed (34 media + 34 pointers + code), 12 stale charger files removed, all 644 media verified by hash.
+
+# Import into this project
+- [x] Copy code, Android source and workflow from GitHub repo mohamme-Mechatronics/al-raabi-power-harbor-complete.
+- [x] Re-upload all 644 media files with their original addresses; update 703 pointers.
+- [x] Create orders, notifications and app settings storage in the new backend.
+- [x] Admin password saved in the secure form.
+- [ ] Old orders/notifications: waiting on an export from the old project.
+- [x] Replace all panels with the 10 Trina Vertex datasheets the user uploaded (600–725 W); Huasun brand removed since it had no other products.
+- [x] Replace hybrid inverters with Luxpower (SNA, GEN-LB-EU, LXP-LB-EU) and ATESS (HPS, PCS, RTF, EnerLog) from uploaded datasheets.

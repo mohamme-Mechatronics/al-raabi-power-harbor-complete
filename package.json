@@ -14,7 +14,8 @@
     "test:watch": "vitest"
   },
   "overrides": {
-    "rolldown": "1.2.1"
+    "rolldown": "1.2.1",
+    "shell-quote": ">=1.11.0"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -95,7 +96,7 @@
     "globals": "^15.15.0",
     "jsdom": "^20.0.3",
     "nitro": "3.0.260603-beta",
-    "postgres": "^4.1.0",
+    "postgres": "^4.1.1",
     "prettier": "^3.7.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",

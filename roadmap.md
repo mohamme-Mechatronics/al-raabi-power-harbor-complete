@@ -30,3 +30,4 @@
 - [ ] Old orders/notifications: waiting on an export from the old project.
 - [x] Replace all panels with the 10 Trina Vertex datasheets the user uploaded (600–725 W); Huasun brand removed since it had no other products.
 - [x] Replace hybrid inverters with Luxpower (SNA, GEN-LB-EU, LXP-LB-EU) and ATESS (HPS, PCS, RTF, EnerLog) from uploaded datasheets.
+- [x] Push new catalog (code + 49 new photos/datasheets) to GitHub repo al-raabi-power-harbor-complete; verified 813 files by hash.
